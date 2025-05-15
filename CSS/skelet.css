@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FOOTER */
+
+.footer_socials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  width: 160px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.footer_socials li {
+  margin: 0px 13px 0px 13px;
+  transition: 0.3s ease;
+}
+
+.footer_socials li:hover {
+  opacity: 0.6;
+}
+
+.footer_info {
+  text-align: center;
+  margin: 20px 0px 10px 0px;
+}
+
+.footer_info a {
+  color: black;
+  transition: 0.3s ease;
+}
+
+.footer_info a:hover {
+  opacity: 0.6;
+}
