@@ -4,7 +4,45 @@
   box-sizing: border-box;
 }
 
-/* FOOTER */
+/* Header */
+
+.globalNavbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.globalNavbar a {
+  color: black;
+}
+
+.logo {
+  height: 60px;
+}
+
+.nav2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px 0px 0px;
+  font-size: 20px;
+}
+
+.blivElev {
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.menu {
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px 35px;
+  display: inline-block;
+}
+
+/* Footer */
 
 .footer_socials {
   display: grid;
@@ -36,4 +74,22 @@
 
 .footer_info a:hover {
   opacity: 0.6;
+}
+
+/* TEST CSS */
+
+.testBillede {
+  display: block;
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0% 20%;
+  margin: 0 auto;
+}
+
+.testTekst {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 0px 20px 0px;
+  font-size: 40px;
 }

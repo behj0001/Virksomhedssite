@@ -1,1 +1,63 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(/Fonte/Montserrat-BlackItalic.ttf);
+}
 
+@font-face {
+  font-family: Roboto;
+  src: url(/Fonte/Roboto-Regular.ttf);
+}
+
+:root {
+  --hvid-farve: #ffffff;
+  --sort-farve: #000000;
+  --rod-farve: #ff5151;
+  --gul-farve: #ffe37e;
+  --blaa-farve: #74a3ea;
+}
+
+/* FONTE */
+
+.montserrat {
+  font-family: Montserrat;
+}
+
+.roboto {
+  font-family: Roboto;
+}
+
+/* BAGGRUNDSFARVER */
+
+.baggrundHvid {
+  background-color: var(--hvid-farve);
+}
+.baggrundSort {
+  background-color: var(--sort-farve);
+}
+.baggrundRod {
+  background-color: var(--rod-farve);
+}
+.baggrundGul {
+  background-color: var(--gul-farve);
+}
+.baggrundBlaa {
+  background-color: var(--blaa-farve);
+}
+
+/* TEKSTFARVER */
+
+.tekstHvid {
+  color: var(--hvid-farve);
+}
+.tekstSort {
+  color: var(--sort-farve);
+}
+.tekstRod {
+  color: var(--rod-farve);
+}
+.tekstGul {
+  color: var(--gul-farve);
+}
+.tekstBlaa {
+  color: var(--blaa-farve);
+}
