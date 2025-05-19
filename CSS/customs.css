@@ -1,29 +1,62 @@
-@font-face {
-  font-family: Montserrat;
-  src: url(/Fonte/Montserrat-BlackItalic.ttf);
+/* FONTE */
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: Roboto;
-  src: url(/Fonte/Roboto-Regular.ttf);
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
+
+.inter-light {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.brødtekst {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.lora {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.staatliches {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sedgwick {
+  font-family: "Sedgwick Ave", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Farvekoder */
 
 :root {
+  --beige-farve: #f5efe5;
   --hvid-farve: #ffffff;
   --sort-farve: #000000;
   --rod-farve: #ff5151;
   --gul-farve: #ffe37e;
   --blaa-farve: #74a3ea;
-}
-
-/* FONTE */
-
-.montserrat {
-  font-family: Montserrat;
-}
-
-.roboto {
-  font-family: Roboto;
 }
 
 /* BAGGRUNDSFARVER */
