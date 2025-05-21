@@ -1,51 +1,68 @@
 /* FONTE */
 
+@font-face {
+  font-family: inter-bold;
+  src: url(/fonte/Inter_28pt-Bold.ttf);
+}
+
+@font-face {
+  font-family: inter-regular;
+  src: url(/fonte/Inter_24pt-Regular.ttf);
+}
+
+@font-face {
+  font-family: inter-light;
+  src: url(/fonte/Inter_24pt-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: brødtekst;
+  src: url(/fonte/IBMPlexSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: sedgwick;
+  src: url(/fonte/SedgwickAve-Regular.ttf);
+}
+
+@font-face {
+  font-family: lora;
+  src: url(/fonte/Lora-Regular.ttf);
+}
+
+@font-face {
+  font-family: staatliches;
+  src: url(/fonte/Staatliches-Regular.ttf);
+}
+
+/* Font classes */
+
 .inter-bold {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+  font-family: inter-bold;
 }
 
 .inter-regular {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+  font-family: inter-regular;
 }
 
 .inter-light {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
+  font-family: inter-light;
 }
 
 .brødtekst {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-
-.lora {
-  font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.staatliches {
-  font-family: "Staatliches", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: brødtekst;
 }
 
 .sedgwick {
-  font-family: "Sedgwick Ave", cursive;
-  font-weight: 400;
-  font-style: normal;
+  font-family: sedgwick;
+}
+
+.lora {
+  font-family: lora;
+}
+
+.staatliches {
+  font-family: staatliches;
 }
 
 /* Farvekoder */

@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   background-color: var(--beige-farve);
 }
 
@@ -78,19 +81,3 @@
 }
 
 /* TEST CSS */
-
-.testBillede {
-  display: block;
-  height: 600px;
-  width: 100%;
-  object-fit: cover;
-  object-position: 0% 20%;
-  margin: 0 auto;
-}
-
-.testTekst {
-  width: 800px;
-  margin: 0 auto;
-  padding: 20px 0px 20px 0px;
-  font-size: 40px;
-}

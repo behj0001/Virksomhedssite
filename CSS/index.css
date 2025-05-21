@@ -1,0 +1,255 @@
+/* FORSIDE */
+
+.testBillede {
+  display: block;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 40%;
+}
+
+@media (width >= 700px) {
+  .testBillede {
+    display: block;
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 30%;
+  }
+}
+
+/* VELKOMMEN-section */
+
+.velkommen-wrapper {
+  position: relative;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 180px 0;
+}
+
+.velkommen-wrapper img {
+  display: none;
+}
+
+.velkommen-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.velkommen-titel {
+  text-align: center;
+  font-size: 42px;
+  padding-bottom: 20px;
+}
+
+.velkommen-tekst {
+  text-align: center;
+  font-size: 26px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.linjeskift {
+  display: none;
+}
+
+@media (width >= 700px) {
+  .velkommen-titel {
+    text-align: center;
+    font-size: 72px;
+    padding-bottom: 0;
+  }
+  .velkommen-tekst {
+    text-align: center;
+    font-size: 26px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  .linjeskift {
+    display: inline;
+  }
+}
+
+@media (width >=1100px) {
+  .velkommen-wrapper {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .velkommen-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* LINJEFAG-section */
+.linjefag-wrapper {
+  background-color: #ffe37e;
+  padding: 20px 10px 40px 10px;
+}
+
+.linjefag-section {
+  display: grid;
+}
+
+.linjefag-liste {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.linjefag-section h2 {
+  font-size: 32px;
+}
+
+.linjefag-streg {
+  width: 200px;
+  height: 1px;
+  background-color: black;
+  margin: 10px 0;
+}
+
+.linjefag-section a {
+  font-size: 64px;
+  color: black;
+  text-decoration-thickness: 3px;
+}
+
+.psyk {
+  text-underline-offset: 16px;
+  padding-bottom: 20px;
+}
+
+.linjefag-billede {
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+@media (width >= 700px) {
+  .linjefag-section {
+    padding: 30px 10px 80px 30px;
+  }
+
+  .linjefag-section h2 {
+    font-size: 60px;
+  }
+  .linjefag-streg {
+    width: 300px;
+    height: 2px;
+    background-color: black;
+    margin: 10px 0;
+  }
+  .linjefag-section a {
+    font-size: 120px;
+    text-decoration-thickness: 6px;
+  }
+  .psyk {
+    text-underline-offset: 27px;
+    padding-bottom: 20px;
+  }
+  .linjefag-billede {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+@media (width >= 1200px) {
+  .linjefag-section {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 2400px;
+    margin: 0 auto;
+  }
+}
+
+/* EFTERSKOLELIV-section */
+
+.efterskoleliv {
+  background-image: url(/Gallery/efterskoleliv.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  height: 1200px;
+  background-repeat: no-repeat;
+}
+
+.tekst-boks {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.efterskoleliv-titel {
+  font-size: 64px;
+  text-align: center;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.efterskole-vertikal-streg {
+  display: none;
+}
+
+.efterskole-horisontal-streg {
+  max-width: 800px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.efterskoleliv-tekst {
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 10px;
+}
+
+.efterskoleliv-tekst a {
+  color: white;
+}
+
+@media (width >= 1100px) {
+  .tekst-boks {
+    position: absolute;
+    bottom: 60px;
+    max-width: 1100px;
+    padding-left: 60px;
+    margin: 0;
+  }
+  .efterskoleliv-titel {
+    font-size: 128px;
+    padding-left: 20px;
+    margin: 0;
+    text-align: left;
+  }
+  .efterskole-vertikal-streg {
+    display: inline;
+    position: absolute;
+    width: 3px;
+    background-color: white;
+    left: 35px;
+    top: 0;
+    bottom: 0;
+  }
+  .efterskole-horisontal-streg {
+    width: 1000px;
+    margin-left: 20px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+  }
+  .efterskoleliv-tekst {
+    font-size: 36px;
+    padding: 20px 20px;
+  }
+}
