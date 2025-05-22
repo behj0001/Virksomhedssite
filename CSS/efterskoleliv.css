@@ -1,5 +1,5 @@
 main{
-    font-family: inter-regular;
+    font-family: brødtekst;
     font-size: 1.6rem;
 }
 body a{
@@ -16,7 +16,7 @@ img{
 section{
     /* margin-left: 2rem;
     margin-right: 2rem; */
-    position: relative;
+    /* position: relative; */
 }
 li{
     list-style: none;
