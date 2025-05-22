@@ -1,0 +1,93 @@
+main{
+    font-family: brødtekst;
+    font-size: 1.6rem;
+}
+body a{
+    text-decoration: none;
+    color: var(--sort-farve);
+}
+body a:visited{
+    color: var(--sort-farve);
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+section{
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    /* position: relative; */
+}
+li{
+    list-style: none;
+}
+.scribbles{
+    width: 20%;
+    position: absolute;
+}
+#hero_img{
+background-image: url(../Gallery/img_efterskoleliv/elever-på-baenk.jpeg);
+width: 100%;
+height: 45vh;
+background-size: cover;
+background-position: -2vh -5vh;
+margin: 0;
+}
+summary{
+    font-family: inter-bold;
+}
+h1, h2{
+    font-size: 3.6rem;
+    font-family: inter-bold;
+}
+/* .col-1{
+    display: flex;
+    object-position: -1;
+    position: relative;
+    justify-content: space-between;
+}
+.right{
+    text-align: right;
+    width: 50%;
+    position: relative;
+    transform: translateY(15rem);
+}
+.left{
+    position: relative;
+    width:100%;
+
+}
+.flex{
+    display: flex;
+}
+#s1{
+    width: 5%;
+}
+#krusedulle{
+    width: 15%;
+    top: 7rem;
+    left: 72%;
+}
+#stor_scribble{
+    width: 15%;
+    top: 2rem;
+    left: 83%;
+}
+#pil_1{
+    width: 18%;
+    top: 13rem;
+    left: 32%;
+}
+#birk_1{
+    position: absolute;
+    width: 30%;
+    top: 20rem;
+    left: 47%;
+}
+#birk_2{
+    position: absolute;
+    width: 30%;
+    top: 20rem;
+    left: 47%;
+} */
+ main
