@@ -2,11 +2,11 @@ main{
     font-family: brødtekst;
     font-size: 1.6rem;
 }
-body a{
+main a{
     text-decoration: none;
     color: var(--sort-farve);
 }
-body a:visited{
+main a:visited{
     color: var(--sort-farve);
 }
 img{
