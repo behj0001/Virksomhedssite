@@ -16,7 +16,7 @@ img{
 section{
     /* margin-left: 2rem;
     margin-right: 2rem; */
-    /* position: relative; */
+    position: relative;
 }
 li{
     list-style: none;
@@ -90,4 +90,4 @@ h1, h2{
     top: 20rem;
     left: 47%;
 } */
- main
+ 
