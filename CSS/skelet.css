@@ -22,6 +22,8 @@ body {
 
 .logo {
   height: 5vh;
+  width: 100%;
+  object-fit: contain;
 }
 
 .nav2 {
@@ -33,14 +35,14 @@ body {
 }
 
 .blivElev {
-  border: 2px solid white;
+  /* border: 2px solid white; */
   border-radius: 8px;
   padding: 10px 20px;
   display: inline-block;
 }
 
 .menu {
-  border: 2px solid white;
+  /* border: 2px solid white; */
   border-radius: 8px;
   padding: 10px 35px;
   display: inline-block;
