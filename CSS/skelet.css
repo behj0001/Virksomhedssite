@@ -16,11 +16,11 @@ body {
   margin: 20px;
 }
 
-.globalNavbar a {
+.header-link {
   display: none;
 }
 
-.globalNavbar a:hover {
+.header-link:hover {
   color: var(--rod-farve);
 }
 
@@ -69,7 +69,7 @@ body {
 }
 
 @media (width >= 800px) {
-  .globalNavbar a {
+  .header-link {
     color: black;
     display: block;
   }
@@ -156,7 +156,7 @@ body {
 .footer_info a:hover {
   opacity: 0.6;
 }
-.instagram, .facebook{
+.instagram,
+.facebook {
   fill: var(--blaa-farve);
 }
-
