@@ -67,8 +67,8 @@ details{
 .text_box{
     background-color: rgb(0, 0, 0, 0.5 );
     width: 65%;
-    margin-bottom: 5rem;
     color: var(--hvid-farve);
+    margin-bottom: 2rem;
 }
 .tekst-paa-img{
     display: flex;
@@ -153,9 +153,12 @@ details{
 }
 .flex{
     display: flex;
+    
 }
 #s1{
     width: 5%;
+    object-fit: contain;
+    object-position: top;
 }
 #pil_1{
     width: 13%;
@@ -224,23 +227,57 @@ details{
     font-size: 1.6rem;
     text-decoration: none;
 }
-@media(width >= 800px){
-    /* #hero_img{ 
-        /* height: 64vh; */
+
+/* STEGER */
+.streg_vandret{
+    border-bottom: 2px solid var(--hvid-farve);
+    width: 50%;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+.streg_lodret{
+    border-left: 2px solid var(--hvid-farve);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+.streg_vandret_sort{
+    border-bottom: 2px solid var(--sort-farve);
+    width: 50%;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+.streg_lodret_sort{
+    border-left: 2px solid var(--sort-farve);
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+.streg_vandret_sort_hoejre{
+    border-bottom: 2px solid var(--sort-farve);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+.streg_lodret_sort_hoejre{
+    border-right: 2px solid var(--sort-farve);
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+@media(width >= 700px){
+    #hero_img{ 
+        height: 64vh;
         background-position: 0vh -37vh;
     }
     #o1{
         margin-top: 8rem;
-    } */
-    section{
-        /* min-height: 90vh; */
     }
-    /* #a1{
+    section{
         min-height: 90vh;
-    } */
-    /* .flex_desktop{
+    }
+    #a1{
+        min-height: 90vh;
+    } 
+    .flex_desktop{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-    } */
+    }
 }
