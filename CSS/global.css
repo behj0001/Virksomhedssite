@@ -1,0 +1,103 @@
+.brødtekst {
+  margin-bottom: 3rem;
+}
+.inter-regular {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+p {
+  place-self: center;
+}
+h2 {
+  place-self: center;
+}
+h1 {
+  place-self: center;
+}
+.dreamteam {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+}
+
+.brødtekst {
+  padding: 20px 0px 20px 0px;
+  width: 800px;
+}
+
+.dreamteam h3 {
+}
+.ch {
+  margin-right: 3rem;
+}
+.testBillede {
+  display: block;
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0% 20%;
+  margin: 0 auto;
+}
+
+/* .Hincke {
+  grid-row: 2/3;
+}
+
+.ch {
+  grid-row: 3/4;
+}
+.Blom {
+  grid-row: ;
+}
+.abl {
+  grid-row: 3/-2;
+}
+.Noe {
+  grid-column: 4/-3;
+}
+.brn {
+  grid-row: 3/4;
+}
+.Bjarke {
+} */
+
+.lf_img {
+  display: block;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0% 20%;
+  margin: 0 auto;
+}
+.grid1 {
+  display: grid;
+}
+h4,
+img {
+  place-self: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  color: #74a3ea;
+  font-size: 10vw;
+}
+h5,
+img {
+  place-self: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  color: #ffe37e;
+  font-size: 10vw;
+}
+h6,
+img {
+  place-self: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  color: #74a3ea;
+  font-size: 10vw;
+}
+
+@font-face {
+  font-family: inter-regular;
+  src: url(/fonte/Inter_24pt-Regular.ttf);
+}
