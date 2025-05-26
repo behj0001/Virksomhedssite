@@ -10,7 +10,7 @@ main a{
 main a:visited{
     color: var(--sort-farve);
 }
-img{
+main img{
     width: 100%;
     object-fit: cover;
 }
@@ -18,6 +18,7 @@ section{
     padding: 2rem;
     position: relative;
     min-height: 45vh;
+    /* margin-bottom: 2rem; */
 }
 h1, h2{
     font-size: 3.6rem;
@@ -37,11 +38,14 @@ details{
     margin-bottom: 1rem;
     width: 65%;
 }
-
+.right details{
+    margin-bottom: 1rem;
+    width: 100%;
+}
 /* TEXT placering+layout */
 
 .manchet{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 .right{
     display: flex;
@@ -220,8 +224,23 @@ details{
     font-size: 1.6rem;
     text-decoration: none;
 }
-@media(width >= 700px){
-    #hero_img{
-        
+@media(width >= 800px){
+    /* #hero_img{ 
+        /* height: 64vh; */
+        background-position: 0vh -37vh;
     }
+    #o1{
+        margin-top: 8rem;
+    } */
+    section{
+        /* min-height: 90vh; */
+    }
+    /* #a1{
+        min-height: 90vh;
+    } */
+    /* .flex_desktop{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    } */
 }
