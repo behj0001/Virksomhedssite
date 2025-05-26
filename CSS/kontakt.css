@@ -1,0 +1,78 @@
+.Billede1 {
+  width: 100%;
+}
+
+.Billede2 {
+  width: 100%;
+}
+
+.Billede3 {
+  width: 100%;
+}
+
+.Billede4 {
+  width: 100%;
+}
+
+.Billede5 {
+  width: 100%;
+}
+
+.midten {
+  text-align: center;
+  max-width: 1500px;
+}
+
+body {
+  background-color: #f5efe5;
+  color: black;
+  /* letter-spacing: 0em; */
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.Green {
+  background-color: #3a4e4d;
+  color: #ffffff;
+  padding: 4em;
+}
+
+.Blue {
+  background-color: #74a3ea;
+  color: #000000;
+  padding: 4em;
+}
+
+.Skoleinfo {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.fillout {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+p:not(.midten p) {
+  max-width: 100ch;
+}
+
+#form-section {
+  max-width: 400px;
+}
+
+@media (width<575px) {
+  .Green {
+    padding: 1em;
+  }
+  .Blue {
+    padding: 1em;
+  }
+}
