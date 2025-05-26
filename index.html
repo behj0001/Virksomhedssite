@@ -35,13 +35,16 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="header-wrapper">
         <img class="testBillede" src="/Gallery/forside.jpeg" alt="" />
+        <div class="header-tekst">
+          <p class="inter-bold tekstHvid">Velkommen til Høng</p>
+        </div>
       </section>
       <section class="velkommen-wrapper">
         <img src="/Gallery/baggrund-intro2.jpg" alt="baggrund" />
         <div class="velkommen-overlay">
-          <p class="velkommen-titel inter-bold">Velkommen til Høng</p>
+          <p class="velkommen-titel inter-bold">Høng Efterskole</p>
           <p class="velkommen-tekst brødtekst">
             Høng Efterskole er fællesskab, faglighed og fede oplevelser.
             <span class="linjeskift"><br /></span>Vælg linjefag som Global,
@@ -85,6 +88,128 @@
           </p>
         </section>
       </section>
+      <section class="spørg-section baggrundRod">
+        <section
+          class="spørg-tekstboks inter-regular tekstHvid fade show"
+          id="startside"
+        >
+          <div class="spørg-vertikal-streg"></div>
+          <p class="spørg-titel inter-light">Spørg Eleverne</p>
+          <ul>
+            <li onclick="bekymret()">
+              Hvad var du bekymret for før du startede på HE?
+            </li>
+            <li onclick="lært()">Hvad er det vigtigste du har lært?</li>
+            <li onclick="bedste()">Hvad er det bedste ved HE?</li>
+            <li onclick="værste()">Hvad er det værste ved HE?</li>
+            <li onclick="råd()">
+              Hvad vil du give af tips til kommende elever?
+            </li>
+          </ul>
+        </section>
+        <article class="sedgwick tekstHvid fade" id="bekymret">
+          <button
+            class="inter-regular tekstHvid tilbage-knap"
+            onclick="tilbage()"
+          >
+            Tilbage
+          </button>
+          <div class="svar">
+            <p>"Om jeg ville passe ind, og om jeg nu ville få nogen venner"</p>
+            <p>"At efterskole slet ikke var noget for mig"</p>
+            <p>"FNAT!"</p>
+            <p>
+              "At møde nye mennesker og om jeg kunne finde ud af det sociale"
+            </p>
+          </div>
+        </article>
+        <article class="sedgwick tekstHvid fade" id="lært">
+          <button
+            class="inter-regular tekstHvid tilbage-knap"
+            onclick="tilbage()"
+          >
+            Tilbage
+          </button>
+          <div class="svar-2-variant">
+            <p>
+              "At blive mere selvstændig og lære at leve bedre i fællesskab"
+            </p>
+            <p>
+              "At selv dem hvor man tænker: "Hende der blir' jeg nok ikke så
+              gode venner med", kan gå hen og blive et af de bedste venskaber,
+              du har fået"
+            </p>
+            <p>
+              "At holde sammen, at grine af dumme ting og ikke altid at tage
+              ting 100% seriøst"
+            </p>
+            <p>"At man vitterligt godt kan, man skal bare prøve"</p>
+          </div>
+        </article>
+        <article class="sedgwick tekstHvid fade" id="bedste">
+          <button
+            class="inter-regular tekstHvid tilbage-knap"
+            onclick="tilbage()"
+          >
+            Tilbage
+          </button>
+          <div class="svar-2-variant">
+            <p>
+              "Det bedste ved HE er vores fællesskab. Jeg har aldrig hørt om en
+              efterskole med så godt og stort fællesskab som vores"
+            </p>
+            <p>"Min kæreste og min K gruppe"</p>
+            <p>
+              "Alle de venner man har fået, det er et helt andet venskab end dem
+              der hjemme"
+            </p>
+            <p>
+              "Fællesskabet! Elsker fællesskabet der er på HE, alle er velkomne
+              og lærerne gør meget for at vi har det godt"
+            </p>
+          </div>
+        </article>
+        <article class="sedgwick tekstHvid fade" id="værste">
+          <button
+            class="inter-regular tekstHvid tilbage-knap"
+            onclick="tilbage()"
+          >
+            Tilbage
+          </button>
+          <div class="svar">
+            <p>"Den lange torsdag"</p>
+            <p>"At gøre rent i E huset"</p>
+            <p>"At få taget sin telefon for at misse en time"</p>
+            <p>"At efterskoleåret snart er slut"</p>
+          </div>
+        </article>
+        <article class="sedgwick tekstHvid fade" id="råd">
+          <button
+            class="inter-regular tekstHvid tilbage-knap"
+            onclick="tilbage()"
+          >
+            Tilbage
+          </button>
+          <div class="svar-2-variant">
+            <p>
+              "Husk at tage det som det kommer og ikke være bange for at vise
+              dig selv frem. Du er perfekt som du er, så bare hav det sjovt"
+            </p>
+            <p>
+              "Giv dig selv lov til at tage en pause, man går ikke glip af det
+              hele ved at trække sig en enkelt dag"
+            </p>
+            <p>
+              Du skal ikke være bange eller nervøs for at starte. Alle på skolen
+              får venner!
+            </p>
+            <p>
+              "Man skal ikke stresse med at opnå alle de ting, man hører om
+              efterskole som fx at få venner. Det skal nok komme med tiden"
+            </p>
+          </div>
+        </article>
+      </section>
     </main>
     <footer>
       <div class="footer_content">
@@ -103,7 +228,7 @@
             </a>
           </li>
         </ul>
-        <div class="footer_info">
+        <div class="footer_info inter-regular">
           <span
             >Høng Efterskole <span style="font-size: 10px">&bull;</span></span
           >
@@ -128,5 +253,6 @@
         </div>
       </div>
     </footer>
+    <script src="JS/forside.js"></script>
   </body>
 </html>

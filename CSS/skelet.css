@@ -95,6 +95,34 @@ body {
     font-size: 26px;
   }
 }
+
+@media (width >= 800px) {
+  .globalNavbar a {
+    color: black;
+    display: block;
+  }
+
+  .blivElev {
+    border: 2px solid white;
+    background-color: var(--rod-farve);
+    border-radius: 8px;
+    padding: 20px 20px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .menu {
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 20px 30px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    font-size: 26px;
+  }
+}
 /* Footer */
 
 .footer_socials {
@@ -117,7 +145,7 @@ body {
 
 .footer_info {
   text-align: center;
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0px 50px 0px;
 }
 
 .footer_info a {
@@ -132,4 +160,3 @@ body {
   fill: var(--blaa-farve);
 }
 
-/* TEST CSS */
