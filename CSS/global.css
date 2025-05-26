@@ -1,5 +1,9 @@
 .brødtekst {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+.inter-regular {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 p {
   place-self: center;
@@ -7,7 +11,8 @@ p {
 h2 {
   place-self: center;
 }
-.testTekst {
+h1 {
+  place-self: center;
 }
 .dreamteam {
   display: grid;
@@ -24,6 +29,14 @@ h2 {
 }
 .ch {
   margin-right: 3rem;
+}
+.testBillede {
+  display: block;
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0% 20%;
+  margin: 0 auto;
 }
 
 /* .Hincke {
@@ -55,4 +68,36 @@ h2 {
   object-fit: cover;
   object-position: 0% 20%;
   margin: 0 auto;
+}
+.grid1 {
+  display: grid;
+}
+h4,
+img {
+  place-self: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  color: #74a3ea;
+  font-size: 10vw;
+}
+h5,
+img {
+  place-self: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  color: #ffe37e;
+  font-size: 10vw;
+}
+h6,
+img {
+  place-self: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  color: #74a3ea;
+  font-size: 10vw;
+}
+
+@font-face {
+  font-family: inter-regular;
+  src: url(/fonte/Inter_24pt-Regular.ttf);
 }
