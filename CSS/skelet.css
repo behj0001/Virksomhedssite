@@ -17,7 +17,11 @@ body {
 }
 
 .globalNavbar a {
-  color: black;
+  display: none;
+}
+
+.globalNavbar a:hover {
+  color: var(--rod-farve);
 }
 
 .logo {
@@ -34,16 +38,61 @@ body {
 
 .blivElev {
   border: 2px solid white;
+  background-color: var(--rod-farve);
   border-radius: 8px;
-  padding: 10px 20px;
+  padding: 15px 10px;
   display: inline-block;
+  width: 110px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.blivElev:hover {
+  color: var(--gul-farve);
+  cursor: pointer;
 }
 
 .menu {
   border: 2px solid white;
   border-radius: 8px;
-  padding: 10px 35px;
+  padding: 15px 10px;
   display: inline-block;
+  width: 110px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.menu:hover {
+  color: var(--gul-farve);
+  cursor: pointer;
+}
+
+@media (width >= 800px) {
+  .globalNavbar a {
+    color: black;
+    display: block;
+  }
+
+  .blivElev {
+    border: 2px solid white;
+    background-color: var(--rod-farve);
+    border-radius: 8px;
+    padding: 20px 20px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .menu {
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 20px 30px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    font-size: 26px;
+  }
 }
 
 /* Footer */
@@ -68,7 +117,7 @@ body {
 
 .footer_info {
   text-align: center;
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0px 50px 0px;
 }
 
 .footer_info a {
@@ -79,5 +128,3 @@ body {
 .footer_info a:hover {
   opacity: 0.6;
 }
-
-/* TEST CSS */
