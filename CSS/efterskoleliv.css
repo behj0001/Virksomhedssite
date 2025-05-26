@@ -1,3 +1,4 @@
+/* GENEREL */
 main{
     font-family: brødtekst;
     font-size: 1.6rem;
@@ -16,10 +17,66 @@ img{
 section{
     padding: 2rem;
     position: relative;
+    min-height: 45vh;
+}
+h1, h2{
+    font-size: 3.6rem;
+    font-family: inter-bold;
 }
 li{
     list-style: none;
 }
+summary{
+    font-family: inter-bold;
+    cursor: pointer;
+    list-style: none;
+    font-family: inter-bold;
+    font-size: 1.8rem;
+}
+details{
+    margin-bottom: 1rem;
+    width: 65%;
+}
+
+/* TEXT placering+layout */
+
+.manchet{
+    margin-bottom: 3rem;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    width: 65%;
+    margin-left: auto;
+    text-align: right;
+}
+/* .right summary{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  cursor: pointer;
+  text-align: right;
+} kommer ikke helt ud til kanten */
+.text_bredde{
+    width: 65%;
+}
+.text_box{
+    background-color: rgb(0, 0, 0, 0.5 );
+    width: 65%;
+    margin-bottom: 5rem;
+    color: var(--hvid-farve);
+}
+.tekst-paa-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.tekst-paa-img h2{
+    font-size: 4.6rem;
+}
+
+/* IMG placering */
+
 #hero_img{
     background-image: url(../Gallery/img_efterskoleliv/elever-på-baenk.jpeg);
     width: 100%;
@@ -28,49 +85,73 @@ li{
     background-position: -2vh -5vh;
     margin: 0;
 }
-summary{
-    font-family: inter-bold;
-    cursor: pointer;
+#birk_1{
+    position: absolute;
+    width: 30%;
+    top: 25rem;
+    left: 40%;
 }
-h1, h2{
-    font-size: 3.6rem;
-    font-family: inter-bold;
+#birk_2{
+    position: absolute;
+    width: 40%;
+    top: 12rem;
+    left: 7%;
+}
+#img_1, #img_2, #img_3{
+    width: 40%;
+    position: absolute;
+    top: 20rem;
+    left: 50%;
+    /* færdiggør placering */
+}
+#o3{
+    background-image: url(../Gallery/img_efterskoleliv/vaerelse.png);
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-position: -2vh;
+}
+#a1{
+    background-image: url(../Gallery/img_efterskoleliv/volly.png);
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    padding: 2rem;
+}
+#a2{
+    background-size: cover;
+    padding: 2rem;
+}
+#o6{
+    padding: 0;
+}
+#img_5{
+    /* position: absolute; */
+    width: 85%;
+    /* top: 12rem;
+    left: 7%; */
+}
+#img_4{
+    position: absolute;
+    width: 40%;
+    top: 30rem;
+    left: 5%;
+}
+
+
+/* SVG placeringer */
+
+.udsagn{
+    width: 35%;
 }
 .scribbles{
     width: 20%;
-}
-.udsagn{
-    width: 40%;
-}
-.manchet{
-    margin-bottom: 3rem;
 }
 .flex{
     display: flex;
 }
 #s1{
     width: 5%;
-}
-
-.right{
-    display: flex;
-    justify-content: flex-end;
-    text-align: right;
-}
-.text_bredde{
-    width: 65%;
-}
-.floating_btn{
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    padding: 10px 20px;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.6rem;
-    text-decoration: none;
 }
 #pil_1{
     width: 13%;
@@ -90,15 +171,57 @@ h1, h2{
     left: 86%;
     position: absolute;
 }
-#birk_1{
+#u1, #u3, #u4, #u5{
     position: absolute;
-    width: 30%;
-    top: 25rem;
+    top: 5rem;
+    left: 60%; 
+}
+#s2{
+    position: absolute;
+    width: 8%;
+    top: 15rem;
+    left: 85%;
+}
+#s3{
+    position: absolute;
+    width: 5%;
+    top: 30rem;
+    left: 90%;
+}
+#s4{
+    position: absolute;
+    width: 12%;
+    top: 38rem;
     left: 40%;
 }
-#birk_2{
+#s5{
     position: absolute;
-    width: 40%;
-    top: 12rem;
-    left: 7%;
+    width: 5%;
+    top: 15rem;
+    left: 50%;
+}
+#s6{
+    position: absolute;
+    width: 5%;
+    top: 25rem;
+    left: 80%;
+}
+/* KNAP */
+
+.floating_btn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+@media(width >= 700px){
+    #hero_img{
+        
+    }
 }
