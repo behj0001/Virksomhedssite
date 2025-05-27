@@ -141,12 +141,23 @@ details{
     top: 30rem;
     left: 5%;
 }
-
+#img_3{
+    position: absolute;
+    width: 40%;
+    top: 20rem;
+    left: 5%;
+}
+#img_2{
+    position: absolute;
+    width: 25%;
+    top: 20rem;
+    left: 60%;
+}
 
 /* SVG placeringer */
 
 .udsagn{
-    width: 35%;
+    width: 25%;
 }
 .scribbles{
     width: 20%;
@@ -178,10 +189,16 @@ details{
     left: 86%;
     position: absolute;
 }
-#u1, #u3, #u4, #u5{
+#u1, #u3{
     position: absolute;
     top: 5rem;
     left: 60%; 
+}
+#u4, #u5{
+    width: 25%;
+    position: absolute;
+    top: 5rem;
+    left: 1%; 
 }
 #s2{
     position: absolute;
