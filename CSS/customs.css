@@ -2,37 +2,37 @@
 
 @font-face {
   font-family: inter-bold;
-  src: url(/fonte/Inter_28pt-Bold.ttf);
+  src: url(../fonte/Inter_28pt-Bold.ttf);
 }
 
 @font-face {
   font-family: inter-regular;
-  src: url(/fonte/Inter_24pt-Regular.ttf);
+  src: url(../fonte/Inter_24pt-Regular.ttf);
 }
 
 @font-face {
   font-family: inter-light;
-  src: url(/fonte/Inter_24pt-ExtraLight.ttf);
+  src: url(../fonte/Inter_24pt-ExtraLight.ttf);
 }
 
 @font-face {
   font-family: brødtekst;
-  src: url(/fonte/IBMPlexSans-Medium.ttf);
+  src: url(../fonte/IBMPlexSans-Medium.ttf);
 }
 
 @font-face {
   font-family: sedgwick;
-  src: url(/fonte/SedgwickAve-Regular.ttf);
+  src: url(../fonte/SedgwickAve-Regular.ttf);
 }
 
 @font-face {
   font-family: lora;
-  src: url(/fonte/Lora-Regular.ttf);
+  src: url(../fonte/Lora-Regular.ttf);
 }
 
 @font-face {
   font-family: staatliches;
-  src: url(/fonte/Staatliches-Regular.ttf);
+  src: url(../fonte/Staatliches-Regular.ttf);
 }
 
 /* Font classes */

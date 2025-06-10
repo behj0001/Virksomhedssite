@@ -228,7 +228,7 @@
 /* EFTERSKOLELIV-section */
 
 .efterskoleliv {
-  background-image: url(/Gallery/efterskoleliv.jpg);
+  background-image: url(../Gallery/efterskoleliv.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
